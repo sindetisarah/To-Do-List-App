@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- linking the style css file and the javascript file -->
+  <title>Do and List</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="js/script.js">
+  <link href="https://fonts.googleapis.com/css?family=Gupter|Underdog&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>LIST AND DO SINDET'</h1>
+    </div>
+  </div>
+  <br>
+  <div class="intro">
+    <p>Track your pace and task!!!<img src="images/funny.jpg"></p>
+
+  </div>
+  <!-- Creating a form ,have a class,input type and the submit button to submit the data or the information -->
+  <div class="start">
+    <form class="task" action="index.html" method="POST">
+      <input type="text" placeholder="new task" name="task">
+      <button type="submit">
+        <emp><strong>ADD</strong></emp>
+      </button>
+    </form>
+
+
+
+    <!-- Allowing Efficient deletion and addition of files we add the delete function key -->
+    <div class="tasksBoard">
+      <ul>
+        <li><span class="delete">×</span><input type="checkbox"><label>Vanilla JavaScript</label></li>
+        <li><span class="delete">×</span><input type="checkbox"><label>Vue.js</label></li>
+        <li><span class="delete">×</span><input type="checkbox"><label>React.js</label></li>
+        <li><span class="delete">×</span><input type="checkbox"><label>Node.js</label></li>
+      </ul>
+      <a id="clear"><button>Clear</button></a>
+    </div>
+  </div>
+
+</body>

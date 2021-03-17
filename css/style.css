@@ -1,0 +1,86 @@
+.jumbotron{
+    background-image: url(/images/feature_5-27_list-making_1146.png);
+    color:burlywood;
+    
+}
+h1{
+    font-family: Snell Roundhand, cursive;
+    font-style: oblique;  
+   
+}
+p{
+    font-family: Snell Roundhand, cursive;
+    font-style: oblique;
+    text-decoration: burlywood;
+    text-align: center;
+    color:indigo;
+    background-color: ghostwhite;
+    
+}
+.start{
+    width:600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+   
+}
+.intro img{
+    height:150px;
+    width:150px;
+}
+button{
+    font-size: 1.5em;
+    color: #53BDFF;
+    background-color:bisque;
+    outline: 0;
+    border: gold;
+    border-width: 2px;
+    width: 55px;
+    
+    border-radius: 50%;
+  
+  }
+  button:hover{
+      background-color: brown;
+      transition: 1s;
+  }
+  .tasksBoard{
+    background-color:bisque;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    /*display: none;*/
+  
+  }
+  .delete{
+    background-color: #ff6161;
+    padding: 0px 3px 0px 3px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 500px) {
+    .start{
+      margin: auto;
+      width: 100%;
+    }
+    input[type="text"]{
+      width: 80%;
+    }
+    button{
+      width: 10%;
+    }
+  }
+  a{
+    float: right;
+    text-align: right;
+    color: #ff6161;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  #clear{
+      background-color: cadetblue;
+  }
+
